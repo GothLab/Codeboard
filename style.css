@@ -1,0 +1,42 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+             width: 100vw;
+            overflow: hidden;
+            display: flex;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100%;
+        }
+
+        .code-editor {
+            width: 500px;
+            height: 100%;
+            background-color: #282c34;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+
+        .canvas-container {
+            width: 100vw;
+            height: 100%;
+            position: relative;
+            background-color: #f0f0f0;
+            overflow: hidden;
+            cursor: grab;
+        }
+
+        .canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+        }
